@@ -1,8 +1,7 @@
 function hola(nombre) {
-    return "Hola" + " " + nombre +"!"
-  //return `Hola ${nombre}!` // Me la sugirió javascript
-    } 
+  return "Hola" + " " + nombre + "!"
+}
 
-console.log(hola("Pedro")) 
-console.log(hola("Juan")) 
+console.log(hola("Pedro"))
+console.log(hola("Juan"))
 console.log(hola("")) 
