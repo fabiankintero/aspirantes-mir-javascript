@@ -1,19 +1,18 @@
-function calcularColor(num) {
-  let color;
+function calcularColor (num) {
+  let color = "";
   if (num == 1) {
-    color = "negro"
+    color = 'negro';
   } else if (num == 2) {
-    color = "blanco"
+    color = 'blanco';
   } else if (num == 3) {
-    color = "azul"
+    color = 'azul';
   } else if (num == 8) {
-    color = "verde"
-
+    color = 'verde';
   }
-  return "El color es " + color
+  return 'El color es ' + color;
 }
 
-console.log(calcularColor(1))
-console.log(calcularColor(2))
-console.log(calcularColor(3))
-console.log(calcularColor(8)) 
+console.log (calcularColor (1));
+console.log (calcularColor (2));
+console.log (calcularColor (3));
+console.log (calcularColor (8));
