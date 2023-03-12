@@ -1,6 +1,7 @@
-function hola (nombre) {
-  return 'Hola ' + nombre + '!';
+function hola(nombre) {
+  return `Hola ${nombre}!`
 }
+
 
 console.log (hola ('Pedro'));
 console.log (hola ('Juan'));
